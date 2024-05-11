@@ -1,0 +1,74 @@
+package register;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class registerDao {
+	//JDBC를 이용한 DB 연동
+	String id = "root";
+	String password = "111111";
+	String url = "jdbc:mysql://localhost:3306/jspdb_3315?characterEncoding=utf-8";
+	
+	Connection conn = null;
+	PreparedStatement pstmt = null;
+	ResultSet rs = null;
+	
+	public void connect() {
+		//1. 드라이버 로딩
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+	
+		//2. DB 연결
+			conn = DriverManager.getConnection(url,id,password);
+			System.out.println("MySQL 연결 성공 !!");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void disConnect() {
+		if(conn != null) {
+			try {
+				conn.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void insertRegister(registerDo rdo) {
+		System.out.println("insertRegister() --> ");
+		connect();
+		
+		//sql
+		//3. SQL문 완성
+		String sql = "insert into register values(?,?)";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1,rdo.getName());
+			pstmt.setString(2,rdo.getEmail());
+			
+			//4. SQL 실행
+			pstmt.executeUpdate();
+			
+			System.out.println("insertRegister() 처리완료!");
+			
+		} catch (Exception e) {
+			// 
+			e.printStackTrace();
+		}
+		
+		
+		disConnect( );
+	}
+	
+	
+	public ArrayList<registerDo> getAllRegister() {
+		System.out.println("getAllRegister() 처리시작 !!");
+		
+	}
+}

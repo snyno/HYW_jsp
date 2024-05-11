@@ -1,0 +1,175 @@
+
+5월 04, 2023 14:40:27.520 NEW SESSION
+5월 04, 2023 14:40:27.520 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 04, 2023 14:40:28.03 [19864:12892:0504/144028.003:ERROR:corrupted_extension_reinstaller.cc(83)] Corrupted extension efaidnbmnnnibpcajpcglclefindmkaj reinstalled with latency 3.07842 s
+5월 04, 2023 14:40:28.05 [19864:12892:0504/144028.005:ERROR:extension_registrar.cc(533)] Failed to unregister service worker for extension efaidnbmnnnibpcajpcglclefindmkaj
+5월 04, 2023 14:43:27.799 [19864:12892:0504/144327.799:ERROR:device_event_log_impl.cc(222)] [14:43:27.799] Bluetooth: bluetooth_adapter_winrt.cc:1068 Getting Default Adapter failed.
+5월 04, 2023 14:44:24.50 [19864:19860:0504/144424.050:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:45:09.318 [19864:19860:0504/144509.318:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:45:54.776 [19864:19860:0504/144554.776:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:46:40.25 [19864:19860:0504/144640.025:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:47:25.638 [19864:19860:0504/144725.638:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:48:10.884 [19864:19860:0504/144810.884:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:48:56.144 [19864:19860:0504/144856.144:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:49:41.403 [19864:19860:0504/144941.403:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:50:26.654 [19864:19860:0504/145026.654:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:51:11.900 [19864:19860:0504/145111.900:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:51:57.138 [19864:19860:0504/145157.137:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:52:42.398 [19864:19860:0504/145242.398:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:53:27.669 [19864:19860:0504/145327.669:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:54:12.921 [19864:19860:0504/145412.920:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:54:58.185 [19864:19860:0504/145458.185:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:55:43.438 [19864:19860:0504/145543.438:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:56:28.687 [19864:19860:0504/145628.687:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:57:13.944 [19864:19860:0504/145713.944:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:57:59.194 [19864:19860:0504/145759.194:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:58:44.455 [19864:19860:0504/145844.454:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 14:59:29.715 [19864:19860:0504/145929.714:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:11:30.889 [19864:19860:0504/151130.889:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:12:16.153 [19864:19860:0504/151216.153:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:13:01.396 [19864:19860:0504/151301.396:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:13:46.646 [19864:19860:0504/151346.646:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:14:31.902 [19864:19860:0504/151431.902:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:15:17.163 [19864:19860:0504/151517.162:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:16:02.412 [19864:19860:0504/151602.412:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:34:47.986 [19864:19860:0504/153447.986:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:35:33.235 [19864:19860:0504/153533.234:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:36:18.495 [19864:19860:0504/153618.495:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:37:03.747 [19864:19860:0504/153703.747:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:37:49.14 [19864:19860:0504/153749.014:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:38:34.265 [19864:19860:0504/153834.265:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:39:19.530 [19864:19860:0504/153919.530:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:40:04.793 [19864:19860:0504/154004.793:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:40:50.47 [19864:19860:0504/154050.047:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:41:35.277 [19864:19860:0504/154135.277:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:42:20.521 [19864:19860:0504/154220.521:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:43:06.186 [19864:19860:0504/154306.185:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:43:51.444 [19864:19860:0504/154351.444:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:44:36.690 [19864:19860:0504/154436.689:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:45:21.956 [19864:19860:0504/154521.956:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:46:07.228 [19864:19860:0504/154607.228:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:46:52.483 [19864:19860:0504/154652.483:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:47:37.743 [19864:19860:0504/154737.743:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:48:22.980 [19864:19860:0504/154822.980:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:49:08.254 [19864:19860:0504/154908.254:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:49:53.505 [19864:19860:0504/154953.504:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:50:38.777 [19864:19860:0504/155038.777:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:51:24.31 [19864:19860:0504/155124.031:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:52:09.293 [19864:19860:0504/155209.293:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:52:54.559 [19864:19860:0504/155254.559:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:53:39.814 [19864:19860:0504/155339.814:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:54:25.49 [19864:19860:0504/155425.049:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:55:10.299 [19864:19860:0504/155510.299:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:55:55.563 [19864:19860:0504/155555.563:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:56:40.812 [19864:19860:0504/155640.812:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:57:26.69 [19864:19860:0504/155726.069:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:58:11.306 [19864:19860:0504/155811.306:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:58:56.583 [19864:19860:0504/155856.583:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 15:59:41.850 [19864:19860:0504/155941.850:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:00:27.127 [19864:19860:0504/160027.127:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:01:12.392 [19864:19860:0504/160112.392:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:01:57.788 [19864:19860:0504/160157.788:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:02:43.49 [19864:19860:0504/160243.049:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:03:30.235 [19864:19860:0504/160330.234:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:04:15.495 [19864:19860:0504/160415.495:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:05:00.752 [19864:19860:0504/160500.752:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:05:46.08 [19864:19860:0504/160546.008:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:06:31.258 [19864:19860:0504/160631.257:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:07:16.498 [19864:19860:0504/160716.497:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:08:01.747 [19864:19860:0504/160801.747:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:08:46.998 [19864:19860:0504/160846.998:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:09:32.267 [19864:19860:0504/160932.267:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:10:17.543 [19864:19860:0504/161017.543:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:11:02.802 [19864:19860:0504/161102.802:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:11:48.64 [19864:19860:0504/161148.064:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:12:33.309 [19864:19860:0504/161233.309:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:13:18.551 [19864:19860:0504/161318.551:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:14:03.816 [19864:19860:0504/161403.816:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:14:49.74 [19864:19860:0504/161449.074:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:15:34.330 [19864:19860:0504/161534.330:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:16:19.598 [19864:19860:0504/161619.598:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:17:04.855 [19864:19860:0504/161704.855:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:17:50.105 [19864:19860:0504/161750.105:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:18:35.363 [19864:19860:0504/161835.363:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:19:20.611 [19864:19860:0504/161920.611:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:20:05.868 [19864:19860:0504/162005.868:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:20:51.109 [19864:19860:0504/162051.109:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:21:36.353 [19864:19860:0504/162136.353:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:22:21.614 [19864:19860:0504/162221.614:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 16:23:06.862 [19864:19860:0504/162306.862:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+5월 30, 2023 19:26:44.875 NEW SESSION
+5월 30, 2023 19:26:44.875 [14604:12588:0530/192644.871:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 30, 2023 19:36:41.318 [14604:19176:0530/193641.109:ERROR:device_event_log_impl.cc(222)] [19:36:41.110] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 30, 2023 19:56:54.919 [20940:3392:0530/195654.916:ERROR:device_event_log_impl.cc(222)] [19:56:54.916] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 30, 2023 20:31:31.459 [21456:21636:0530/203131.458:ERROR:device_event_log_impl.cc(222)] [20:31:31.458] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 30, 2023 20:46:20.631 [23116:8108:0530/204620.630:ERROR:device_event_log_impl.cc(222)] [20:46:20.629] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+6월 04, 2023 20:06:38.230 NEW SESSION
+6월 04, 2023 20:06:38.230 [16180:19028:0604/200638.224:ERROR:device_event_log_impl.cc(222)] [20:06:38.223] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 04, 2023 21:20:19.433 [11028:10132:0604/212019.429:ERROR:device_event_log_impl.cc(222)] [21:20:19.430] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 05, 2023 01:10:54.503 [6340:16696:0605/011054.500:ERROR:device_event_log_impl.cc(222)] [01:10:54.499] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 05, 2023 02:04:55.08 [12988:15752:0605/020454.843:ERROR:device_event_log_impl.cc(222)] [02:04:54.843] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 05, 2023 02:48:22.735 [23188:20804:0605/024822.733:ERROR:device_event_log_impl.cc(222)] [02:48:22.733] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 05, 2023 03:17:05.364 [23188:20804:0605/031705.361:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 05, 2023 03:21:17.968 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:17.981 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:17.992 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.00 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.07 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.15 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.32 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.41 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.48 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.56 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.63 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.71 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.78 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.85 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.93 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.101 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.108 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.116 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.123 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.131 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.139 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.148 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.156 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:21:18.164 [23188:20804:0605/032117.966:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.495 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.508 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.516 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.525 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.532 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.540 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.547 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.556 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.563 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.571 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.578 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.586 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.594 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.603 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.610 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.618 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.624 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.633 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.644 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.651 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.658 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.665 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.673 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:23:48.682 [23188:20804:0605/032348.495:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 05, 2023 03:36:19.82 [23188:20804:0605/033618.919:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 05, 2023 04:06:48.781 [18896:17796:0605/040648.779:ERROR:device_event_log_impl.cc(222)] [04:06:48.779] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 05, 2023 04:53:26.24 [1044:1504:0605/045326.022:ERROR:device_event_log_impl.cc(222)] [04:53:26.023] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+6월 11, 2023 14:02:40.826 NEW SESSION
+6월 11, 2023 14:02:40.826 [23940:26432:0611/140240.822:ERROR:device_event_log_impl.cc(222)] [14:02:40.823] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+6월 12, 2023 02:27:02.451 NEW SESSION
+6월 12, 2023 02:27:02.451 [20652:8216:0612/022702.432:ERROR:device_event_log_impl.cc(222)] [02:27:02.433] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 12, 2023 05:00:16.497 [4136:8164:0612/050016.494:ERROR:device_event_log_impl.cc(222)] [05:00:16.493] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 12, 2023 07:58:27.746 [4136:12248:0612/075827.744:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+6월 12, 2023 07:59:06.748 [4136:12248:0612/075906.748:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+6월 12, 2023 10:36:10.998 [2692:11136:0612/103610.994:ERROR:device_event_log_impl.cc(222)] [10:36:10.995] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

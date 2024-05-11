@@ -1,0 +1,42 @@
+
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		request.setCharacterEncoding("utf-8");
+		String name = request.getParameter("name");
+		String email = request.getParameter("email");
+	%>
+
+	<h2> registerProc.jsp </h2>
+	<hr>
+	<p> name : <%= name %></p>
+	<p> email : <%= email%></p>
+	
+	
+	<hr>
+	
+	<%
+		//JDBC를 이용한 DB 연동
+		String id = "root";
+		String password = "111111";
+		String url = "jdbc:mysql://localhost:3306/jspdb_3315?characterEncoding=utf-8";
+		
+		Connection con = null;
+		
+		//1. 드라이버 로딩
+		//Class.forName("com.mysql.")
+		
+		
+	%>
+	
+</body>
+</html>
+

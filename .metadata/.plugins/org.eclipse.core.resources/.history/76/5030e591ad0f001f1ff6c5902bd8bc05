@@ -1,0 +1,164 @@
+<%@page import="org.w3c.dom.Document"%>
+<%@page import="java.time.LocalDate"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.input-group {
+	margin: 30px 0;
+}
+.mb-3 > .border-primary {
+	border-color:#86b7fe!important;
+}
+.form-control{
+	margin-right:10px;
+}
+.form-control:focus {
+    box-shadow: none!important;
+}
+.btn-check:focus+.btn, .btn:focus, .btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus, .btn-check:checked+.btn-outline-secondary:focus {
+box-shadow: none!important;
+}
+</style>
+
+</head>
+<body onload="checkradio()">
+<script type="text/javascript">
+	function checkradio() {
+		let sort = <%=(String)session.getAttribute("sort")%>
+		if(sort == null) {
+			let radiobtn = document.getElementById("takeofftime");
+			radiobtn.checked=true;
+		} else {
+			//console.log(sort.value);
+			if( sort == "takeofftime"){
+				let radiobtn = document.getElementById(sort.value);
+				radiobtn.checked=true;
+			}else if( sort == "airlinename"){
+				let radiobtn = document.getElementById(sort.value);
+				radiobtn.checked=true;
+			}
+		}
+	}
+</script>
+<p> 2023/07 ~ 2023/08 일부 항공사만 가능</p>
+
+<%
+	LocalDate now = LocalDate.now();
+	String ctryfrom = (String)session.getAttribute("countryfrom");
+	String ctryto = (String)session.getAttribute("countryto");
+	String dfrom = (String)session.getAttribute("datefrom");
+	String dto = (String)session.getAttribute("dateto");
+	if (ctryfrom == null) {
+		ctryfrom = "";
+	}
+	if (ctryto == null) {
+		ctryto = "";
+	}
+	if (dfrom == null) {
+		dfrom = now.toString();		
+	}
+	if (dto == null) {
+		dto = dfrom;		
+	}
+%>
+	<form action="./findProc.jsp" method="post" style="margin-bottom:30px; padding:10px">
+		<div class="input-group mb-3">		
+		  	<label class="input-group-text bg-primary p-2 text-dark bg-opacity-10 border border-primary" style="border-bottom-left-radius: 10px!important;border-top-left-radius: 10px!important;" for="countryfrom">출발지</label>
+		  	<input type="text" list="country-airport" class="form-control border border-primary" id="countryfrom" placeholder="국가 또는 공항"  style="text-transform: uppercase;" name="countryfrom" value="<%=ctryfrom%>"> 
+		  	<datalist id="country-airport">
+		    	<%
+					try{
+						String id = "root";
+						String password = "111111";
+						String url = "jdbc:mysql://localhost:3306/jspdb_3315?characterEncoding=utf-8";
+						
+						Connection conn = null;
+						PreparedStatement pstmt = null;
+						ResultSet rs = null;
+						//2. DB 연결
+						conn = DriverManager.getConnection(url,id, password);
+						
+						//3. SQL문 완성
+						String sql = "select * from country, airport where airport.country=country.countryname_en";
+						pstmt = conn.prepareStatement(sql);
+						
+						//4. SQL문 실행(전송)
+						rs = pstmt.executeQuery();
+						int i = 1;
+						while(rs.next()){
+					%>		<option value="<%=rs.getString(4) %>" label="<%= rs.getString(2) %>, <%= rs.getString(3) %>, <%=rs.getString(7) %>, <%=rs.getString(8) %>" />
+							<%
+							i++;
+						}
+						conn.close();
+						pstmt.close();
+						rs.close();
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				%>
+		  </datalist>
+		  	<label class="input-group-text bg-primary p-2 text-dark bg-opacity-10 border border-primary" for="countryto">도착지</label>
+		  	<input type="text" list="country-airport" class="form-control border border-primary" id="countryto" placeholder="국가 또는 공항"  style="text-transform: uppercase;" name="countryto"  value="<%=ctryto%>"> 
+		  	<datalist id="country-airport">
+		    	<%
+					try{
+						String id = "root";
+						String password = "111111";
+						String url = "jdbc:mysql://localhost:3306/jspdb_3315?characterEncoding=utf-8";
+						
+						Connection conn = null;
+						PreparedStatement pstmt = null;
+						ResultSet rs = null;
+						//2. DB 연결
+						conn = DriverManager.getConnection(url,id, password);
+						
+						//3. SQL문 완성
+						String sql = "select * from country, airport where airport.country=country.countryname_en";
+						pstmt = conn.prepareStatement(sql);
+						
+						//4. SQL문 실행(전송)
+						rs = pstmt.executeQuery();
+						int i = 1;
+						while(rs.next()){
+					%>		<option value="<%=rs.getString(4) %>" label="<%= rs.getString(2) %>, <%= rs.getString(3) %>, <%=rs.getString(7) %>, <%=rs.getString(8) %>" />
+							<%
+							i++;
+						}
+						conn.close();
+						pstmt.close();
+						rs.close();
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				%>
+		  </datalist>
+		  <span class="input-group-text bg-primary p-2 text-dark bg-opacity-10 border border-primary" id="datefrom">가는편</span>
+		  
+		  <input type="date" class="form-control border border-primary" id="datefrom" name="datefrom"  value="<%=dfrom %>" min="" maxlength="10">
+		  <span class="input-group-text bg-primary p-2 text-dark bg-opacity-10 border border-primary" id="dateto">오는편</span>
+		  <input type="date" class="form-control border border-primary"  value="<%=dto %>" min="<%=dfrom %>" id="dateto" name="dateto" style="border-bottom-right-radius: 10px!important;border-top-right-radius: 10px!important;">	
+		  
+		</div>
+		<div class="btn-group btn-group-sm float-end" role="group" aria-label="Basic radio toggle button group">
+		  <input type="radio" class="btn-check" value="takeofftime" name="sort" id="takeofftime">
+		  <label class="btn btn-outline-primary" for="takeofftime" style="height:30px">이른출발순</label>
+		
+		  <input type="radio" class="btn-check" value="airlinename" name="sort" id="airlinename" >
+		  <label class="btn btn-outline-primary" for="airlinename" style="height:30px">항공사순</label>
+		</div>
+		<div class="d-grid gap-2 col-6 mx-auto">
+	  		<button class="btn btn-primary" type="submit">항공권 찾기</button>
+	  	</div>
+	</form>
+</body>
+</html>

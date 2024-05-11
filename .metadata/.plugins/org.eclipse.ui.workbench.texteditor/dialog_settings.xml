@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="=now"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="=now"/>
+			<item value="now"/>
+			<item value="executeUpdate"/>
+			<item value="30%"/>
+			<item value="100%"/>
+			<item value="20%"/>
+			<item value="10%"/>
+			<item value=" width=&quot;1&quot;"/>
+			<item value=".set"/>
+			<item value=".srt"/>
+			<item value="set"/>
+			<item value="takeofftime"/>
+			<item value="sort"/>
+			<item value="checkradio"/>
+			<item value="100"/>
+		</list>
+		<list key="replacehistory">
+			<item value="40%"/>
+			<item value="1"/>
+			<item value="30%"/>
+			<item value="20%"/>
+			<item value="style=&quot;width:150px;&quot;"/>
+			<item value=".get"/>
+			<item value="200"/>
+			<item value="inputGroup-sizing-default"/>
+			<item value="mb-3"/>
+			<item value=" border border-primary"/>
+			<item value=" border border-secondary"/>
+			<item value=" border border-light"/>
+			<item value="500"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1230"/>
+		<item key="DIALOG_Y_ORIGIN" value="415"/>
+		<item key="DIALOG_WIDTH" value="369"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

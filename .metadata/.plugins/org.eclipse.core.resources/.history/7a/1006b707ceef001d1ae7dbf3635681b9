@@ -1,0 +1,6 @@
+package register.copy;
+
+public class registerDo {
+	private String name;
+	private String email;
+}
